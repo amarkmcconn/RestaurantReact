@@ -1,4 +1,5 @@
 import bg from '../assets/bg.png';
+import C from '../assets/C.png';
 import chef from '../assets/chef.png';
 import G from '../assets/G.png';
 import gallery01 from '../assets/gallery01.png';
@@ -23,6 +24,7 @@ import gericht from '../assets/crevasse.png';
 
 export default {
   bg,
+  C,
   chef,
   G,
   gallery01,
