@@ -13,7 +13,7 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">About Us</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">With over 20-plus years in the fine dining industry, We emphasize on fresh, local food prepared in unique ways and served in an atmosphere that is unlike any other restaurant in the world. </p>
-        <button type="button" className="custom__button">More Info</button>
+        <button type="button" className="custom__button"><a href="#chef">More Info</a></button>
       </div>
       <div className="app__aboutus-content_knife flex__center">
         <img src={images.knife} alt="about_knife" />
