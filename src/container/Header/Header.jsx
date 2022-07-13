@@ -10,7 +10,7 @@ const Header = () => (
       <SubHeading title="Chase the new flavour" />
       <h1 className="app__header-h1">The Key To Fine Dining</h1>
       <p className="p__opensans" style={{ margin: '2rem 0' }}>With our precise attention to detail, perfect execution, and exceptional service, our fine dining restaurant is a top-notch experience for the ages. </p>
-      <button type="button" className="custom__button">Explore Menu</button>
+      <button type="button" className="custom__button"><a href="#menu">Explore Menu</a></button>
     </div>
     <div className="app__wrapper_img">
       <img src={images.welcome} alt="header_img" />

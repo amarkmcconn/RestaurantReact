@@ -22,7 +22,7 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">History</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">The history of fine dining begins in France when, at the end of the 18th century, the French Revolution led to many displaced chefs looking for work after losing their positions in aristocratic households. </p>
-        <button type="button" className="custom__button">More Info</button>
+        <button type="button" className="custom__button"><a href="https://kevinsrestaurant.us/fine-dining/the-french-revolution-and-the-birth-of-fine-dining/">More History</a></button>
       </div>
     </div>
   </div>
