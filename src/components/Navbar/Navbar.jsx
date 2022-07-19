@@ -31,12 +31,12 @@ const Navbar = () => {
     height: '60px',
     width: '100%',
     textAlign: 'center',
-    transition: 'top 0.6s'
+    transition: 'top 0.6s',
   }
 
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div style={{ ...navbarStyles, top: visible ? '0' : '-80px'}}>
+    <div style={{ ...navbarStyles, top: visible ? '0' : '-80px', zIndex:6}}>
       <nav className="app__navbar">
         <div className="app__navbar-logo">
           <img src={images.gericht} alt="app__logo" />
