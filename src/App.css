@@ -3,8 +3,8 @@
 }
 
 .section__img img{
-  height: 660px;
-  width: 460px;
+  height: 460px;
+  width: 360px;
 }
 
 .flex__center {
@@ -127,6 +127,11 @@
   .spoon__img {
     width: 80px;
   }
+
+  .section__img img {
+    height: 950px;
+    width: auto;
+  }
 }
 
 @media screen and (max-width: 1150px) {
@@ -151,6 +156,11 @@
   .section__padding {
     padding: 4rem;
   }
+
+  .section__img img {
+    height: 950px;
+    width: auto;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -164,6 +174,11 @@
 
   .p__opensans {
     font-size: 14px;
+  }
+
+  .section__img img {
+    height: 650px;
+    width: auto;
   }
 }
 
@@ -179,5 +194,10 @@
   .headtext__cormorant {
     font-size: 45px;
     line-height: 70px;
+  }
+
+  .section__img img {
+    height: 360px;
+    width: auto;
   }
 }
